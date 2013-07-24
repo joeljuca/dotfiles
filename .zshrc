@@ -45,3 +45,19 @@ plugins=(git git-flow nyan sublime vagrant web-search)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
+
+# Drupal and Drush aliases. https://github.com/nuvoleweb/drush_alias
+alias drsp='cp sites/default/default.settings.php sites/default/settings.php'
+alias drcc='drush cache-clear all'
+alias drdb='drush updb && drush cc all'
+alias drdu='drush sql-dump --ordered-dump --result-file=dump.sql'
+alias dren='drush pm-enable'
+alias drdis='drush pm-disable'
+alias drun='drush pm-uninstall'
+alias drf='drush features'
+alias drfd='drush features-diff'
+alias drfu='drush -y features-update'
+alias drfr='drush -y features-revert'
+alias drfra='drush -y features-revert all'
+alias dr='drush'
