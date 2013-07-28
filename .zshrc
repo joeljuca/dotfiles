@@ -45,7 +45,7 @@ plugins=(git git-flow nyan sublime vagrant web-search)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-
+alias mkdir='mkdir -p'
 
 # Drupal and Drush aliases. https://github.com/nuvoleweb/drush_alias
 alias drsp='cp sites/default/default.settings.php sites/default/settings.php'
