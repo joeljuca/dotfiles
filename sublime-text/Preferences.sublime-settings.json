@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Theme - Phoenix/Color Scheme/Phoenix Dark Blue - Eighties.tmTheme",
+	"color_scheme": "Packages/Theme - Phoenix/Color Scheme/Phoenix Dark Green.tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "UTF-8",
@@ -14,7 +14,10 @@
 	"phoenix_solid_current_tab": true,
 	"phoenix_tabs_auto_width": true,
 	"phoenix_tabs_large": true,
-	"rulers": [80],
+	"rulers":
+	[
+		80
+	],
 	"shift_tab_unindent": true,
 	"tab_size": 2,
 	"theme": "Phoenix Dark.sublime-theme",
