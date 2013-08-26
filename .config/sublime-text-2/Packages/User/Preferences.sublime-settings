@@ -1,8 +1,12 @@
 {
-	"color_scheme": "Packages/Theme - Phoenix/Color Scheme/Tomorrow-Night.tmTheme",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "UTF-8",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"overlay_scroll_bars": "enabled",
 	"phoenix_color_blue": true,
 	"phoenix_color_expanded_folder": true,
@@ -20,7 +24,6 @@
 	],
 	"shift_tab_unindent": true,
 	"tab_size": 2,
-	"theme": "Phoenix Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,

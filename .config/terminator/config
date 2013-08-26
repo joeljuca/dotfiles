@@ -1,0 +1,29 @@
+[global_config]
+  title_transmit_bg_color = "#113355"
+  title_inactive_fg_color = "#113355"
+  handle_size = 5
+  title_transmit_fg_color = "#eeeeee"
+  title_inactive_bg_color = "#cccccc"
+[keybindings]
+[profiles]
+  [[default]]
+    use_system_font = False
+    visible_bell = True
+    background_darkness = -0.2
+    cursor_shape = ibeam
+    scrollbar_position = hidden
+    cursor_color = "#000000"
+    foreground_color = "#000000"
+    font = Monospace 9
+    background_color = "#ffffdd"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
