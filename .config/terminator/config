@@ -14,7 +14,7 @@
     scrollbar_position = hidden
     cursor_color = "#000000"
     foreground_color = "#000000"
-    font = Monospace 9
+    font = Monospace 10
     background_color = "#ffffdd"
     scrollback_infinite = True
 [layouts]
