@@ -9,13 +9,12 @@
   [[default]]
     use_system_font = False
     visible_bell = True
-    background_darkness = -0.2
-    cursor_shape = ibeam
+    background_darkness = 0.9
+    background_type = transparent
     scrollbar_position = hidden
-    cursor_color = "#000000"
-    foreground_color = "#000000"
-    font = Monospace 10
-    background_color = "#ffffdd"
+    cursor_color = "#cccccc"
+    cursor_shape = ibeam
+    font = Monospace 9
     scrollback_infinite = True
 [layouts]
   [[default]]

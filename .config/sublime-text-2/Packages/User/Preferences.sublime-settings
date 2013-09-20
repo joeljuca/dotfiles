@@ -8,16 +8,6 @@
 		"Vintage"
 	],
 	"overlay_scroll_bars": "enabled",
-	"phoenix_color_blue": true,
-	"phoenix_color_expanded_folder": true,
-	"phoenix_dirty_bottom_bar": true,
-	"phoenix_dirty_bottom_bar_yellow": true,
-	"phoenix_eighties": true,
-	"phoenix_highlight_current_tab": true,
-	"phoenix_sidebar_tree_xlarge": true,
-	"phoenix_solid_current_tab": true,
-	"phoenix_tabs_auto_width": true,
-	"phoenix_tabs_large": true,
 	"rulers":
 	[
 		80
