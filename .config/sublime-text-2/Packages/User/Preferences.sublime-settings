@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "UTF-8",
@@ -10,7 +10,9 @@
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
-		80
+		80,
+		100,
+		120
 	],
 	"shift_tab_unindent": true,
 	"tab_size": 2,
