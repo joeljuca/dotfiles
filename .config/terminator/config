@@ -14,9 +14,7 @@
     background_type = transparent
     scrollbar_position = hidden
     cursor_color = "#ffffff"
-    show_titlebar = False
-    cursor_shape = underline
-    font = Monospace 10
+    font = Monospace Bold 10
     scrollback_infinite = True
 [layouts]
   [[default]]
