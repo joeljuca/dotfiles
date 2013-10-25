@@ -13,8 +13,10 @@
     audible_bell = True
     background_type = transparent
     scrollbar_position = hidden
-    cursor_color = "#ffffff"
+    cursor_color = "#000000"
+    foreground_color = "#000000"
     font = Monospace Bold 10
+    background_color = "#ffffdd"
     scrollback_infinite = True
 [layouts]
   [[default]]
