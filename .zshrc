@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="af-magic"
+ZSH_THEME="nicoulaj"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -45,6 +45,7 @@ plugins=(git git-flow nyan sublime vagrant web-search)
 source $ZSH/oh-my-zsh.sh
 
 # Drupal and Drush aliases. https://github.com/nuvoleweb/drush_alias
+alias drurs='drush upwd $(drush uinf 1 | grep -e "User name" | grep -oe "[a-zA-Z0-9]\+\s\+$" | grep -e "[a-zA-Z0-9]\+") --password="$(date +%Y%m%d)"'
 alias drsp='cp sites/default/default.settings.php sites/default/settings.php'
 alias drcc='drush cache-clear all'
 alias drdb='drush updb && drush cc all'
