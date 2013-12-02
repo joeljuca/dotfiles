@@ -14,6 +14,7 @@
     background_type = transparent
     scrollbar_position = hidden
     cursor_color = "#ffffff"
+    cursor_shape = ibeam
     font = Monospace Bold 10
     scrollback_infinite = True
 [layouts]
