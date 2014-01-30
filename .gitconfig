@@ -2,6 +2,9 @@
   name          = Joel Wallis
   email         = joelwallis@gmail.com
 
+[core]
+  editor        = nano
+
 [color]
   ui            = true
 
