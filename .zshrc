@@ -44,6 +44,9 @@ plugins=(git git-flow jira nyan sublime urltools vagrant web-search)
 
 source $ZSH/oh-my-zsh.sh
 
+# Command line customizations
+alias ack='ack-grep'
+
 # Drupal and Drush aliases. https://github.com/nuvoleweb/drush_alias
 alias drurs='drush upwd $(drush uinf 1 | grep -e "User name" | grep -oe "[a-zA-Z0-9]\+\s\+$" | grep -e "[a-zA-Z0-9]\+") --password="$(date +%Y%m%d)"'
 alias drsp='cp sites/default/default.settings.php sites/default/settings.php'
