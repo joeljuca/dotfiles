@@ -1,0 +1,6 @@
+host=localhost
+user=root
+pass=g42-214br
+db=drp_pds
+delay=1
+color=1
