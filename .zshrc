@@ -48,7 +48,7 @@ source $ZSH/oh-my-zsh.sh
 alias ack='ack-grep'
 
 # Drupal and Drush aliases. https://github.com/nuvoleweb/drush_alias
-alias drurs='drush upwd $(drush uinf 1 | grep -e "User name" | grep -oe "[a-zA-Z0-9]\+\s\+$" | grep -e "[a-zA-Z0-9]\+") --password="$(date +%Y%m%d)"'
+alias drur='drush upwd $(drush uinf 1 | grep -e "User name" | grep -oe "[a-zA-Z0-9]\+\s\+$" | grep -e "[a-zA-Z0-9]\+") --password="$(date +%Y%m%d)"'
 alias drsp='cp sites/default/default.settings.php sites/default/settings.php'
 alias drcc='drush cache-clear all'
 alias drdb='drush updb && drush cc all'
@@ -61,4 +61,6 @@ alias drfd='drush features-diff'
 alias drfu='drush -y features-update'
 alias drfr='drush -y features-revert'
 alias drfra='drush -y features-revert-all'
+alias drlu='drush l10n-update'
+alias drlur='drush l10n-update-refresh'
 alias dr='drush'
