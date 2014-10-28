@@ -4,6 +4,7 @@
 
 [core]
   editor        = nano
+  fileMode      = false
 
 [color]
   ui            = true
