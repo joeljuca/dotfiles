@@ -44,8 +44,8 @@ plugins=(git git-flow jira nyan sublime urltools vagrant web-search)
 
 source $ZSH/oh-my-zsh.sh
 
-# Command line customizations
-alias ack='ack-grep'
+# Personal stuff
+export EDITOR='vim'
 
 # Drupal and Drush aliases. https://github.com/nuvoleweb/drush_alias
 alias drur='drush upwd $(drush uinf 1 | grep -e "User name" | grep -oe "[a-zA-Z0-9]\+\s\+$" | grep -e "[a-zA-Z0-9]\+") --password="$(date +%Y%m%d)"'
@@ -64,3 +64,25 @@ alias drfra='drush -y features-revert-all'
 alias drlu='drush l10n-update'
 alias drlur='drush l10n-update-refresh'
 alias dr='drush'
+
+# Vagrant shortcuts
+alias v='vagrant'
+alias vin='vagrant init'
+alias vup='vagrant up'
+alias vst='vagrant status'
+alias vsh='vagrant ssh'
+alias vha='vagrant halt'
+alias vpr='vagrant provision'
+
+# Misc
+alias ack='ack-grep'
+alias mongod.mac='mongod --config /usr/local/etc/mongod.conf'
+
+# PATH customizations
+export PATH="/usr/local/bin:$PATH" # Homebrew
+export PATH="$PATH:$HOME/.rvm/bin" # RVM
+
+# For environment specific settings, please create a *.sh file at ./zsh-env
+#for shell_file ./zsh-env/*.sh; do
+#	source $shell_file
+#done
