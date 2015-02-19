@@ -1,0 +1,4 @@
+# Ignoring environment settings
+zsh-env/*
+zsh-env/.*
+!zsh-env/.gitkeep
