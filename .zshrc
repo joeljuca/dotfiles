@@ -81,6 +81,10 @@ alias mongod.mac='mongod --config /usr/local/etc/mongod.conf'
 # PATH customizations
 export PATH="/usr/local/bin:$PATH" # Homebrew
 export PATH="$PATH:$HOME/.rvm/bin" # RVM
+export ANDROID_HOME="/usr/local/Cellar/android-sdk/24.0.2" # Android SQK
+export ANDROID_HOME="${HOME}/Library/Android/sdk" # Android SQK
+export PATH="${PATH}:$ANDROID_HOME/platform-tools" # Android SQK
+export PATH="${PATH}:$ANDROID_HOME/tools" # Android SQK
 
 # For environment specific settings, please create a *.sh file at ./zsh-env
 #for shell_file ./zsh-env/*.sh; do
