@@ -1,0 +1,20 @@
+"*":
+  editor:
+    showIndentGuide: true
+    invisibles: {}
+    fontSize: 12
+    softWrap: true
+  core:
+    followSymlinks: true
+    projectHome: "~/Atom-Projects"
+    disabledPackages: [
+      "vim-mode"
+    ]
+  "exception-reporting":
+    userId: "a642e5c2-3907-c10d-8211-6de36a70c62c"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "a5e61defbdff6f3caa81257038bf6587c34824ac"
+  minimap: {}
+  "project-manager": {}
