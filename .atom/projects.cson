@@ -1,0 +1,10 @@
+'back-end':
+  'title': 'back-end'
+  'paths': [
+    '/Users/joel/Sites/GoGudi/back-end'
+  ]
+'front-end':
+  'title': 'front-end'
+  'paths': [
+    '/Users/joel/Sites/GoGudi/front-end'
+  ]
