@@ -3,7 +3,7 @@
   email         = joelwallis@gmail.com
 
 [core]
-  editor        = nano
+  editor        = vim
   fileMode      = false
 
 [color]
