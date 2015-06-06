@@ -22,3 +22,5 @@
   versiontag    = v
 [push]
   default = matching
+[credential]
+	helper = oskeychain
