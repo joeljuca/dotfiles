@@ -77,9 +77,10 @@ alias vpr='vagrant provision'
 # Misc
 alias ack='ack-grep'
 alias mongod.mac='mongod --config /usr/local/etc/mongod.conf'
+alias t='tmuxinator'
 
 # PATH customizations
-export PATH="/usr/local/bin:$PATH" # Homebrew
+export PATH="/usr/local/sbin:/usr/local/bin:$PATH" # Homebrew
 export PATH="$PATH:$HOME/.composer/vendor/bin" # Composer
 export ANDROID_HOME="${HOME}/Library/Android/sdk" # Android SQK
 export PATH="${PATH}:$ANDROID_HOME/platform-tools" # Android SQK
