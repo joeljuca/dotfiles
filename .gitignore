@@ -2,3 +2,6 @@
 zsh-env/*
 zsh-env/.*
 !zsh-env/.gitkeep
+
+# Atom projects
+.atom/projects.cson

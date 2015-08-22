@@ -82,7 +82,7 @@ alias t='tmuxinator'
 # PATH customizations
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH" # Homebrew
 export PATH="$PATH:$HOME/.composer/vendor/bin" # Composer
-export ANDROID_HOME="${HOME}/Library/Android/sdk" # Android SQK
+export ANDROID_HOME="/usr/local/opt/android-sdk" # Android SQK
 export PATH="${PATH}:$ANDROID_HOME/platform-tools" # Android SQK
 export PATH="${PATH}:$ANDROID_HOME/tools" # Android SQK
 
