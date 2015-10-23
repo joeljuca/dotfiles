@@ -48,6 +48,8 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='vim'
 
 # Drupal and Drush aliases. https://github.com/nuvoleweb/drush_alias
+
+alias dr='drush'
 alias drur='drush upwd $(drush uinf 1 | grep -e "User name" | grep -oe "[a-zA-Z0-9]\+\s\+$" | grep -e "[a-zA-Z0-9]\+") --password="$(date +%Y%m%d)"'
 alias drsp='cp sites/default/default.settings.php sites/default/settings.php'
 alias drcc='drush cache-clear all'
@@ -63,21 +65,17 @@ alias drfr='drush -y features-revert'
 alias drfra='drush -y features-revert-all'
 alias drlu='drush l10n-update'
 alias drlur='drush l10n-update-refresh'
-alias dr='drush'
 
 # Vagrant shortcuts
-alias v='vagrant'
-alias vin='vagrant init'
-alias vup='vagrant up'
-alias vst='vagrant status'
-alias vsh='vagrant ssh'
-alias vha='vagrant halt'
-alias vpr='vagrant provision'
+alias vg='vagrant'
+alias vgup='vagrant up'
+alias vgst='vagrant status'
+alias vgsh='vagrant ssh'
 
 # Misc
-alias ack='ack-grep'
 alias mongod.mac='mongod --config /usr/local/etc/mongod.conf'
-alias t='tmuxinator'
+alias px="ps aux"
+alias :q="exit"
 
 # PATH customizations
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH" # Homebrew

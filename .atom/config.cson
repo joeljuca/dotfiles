@@ -1,28 +1,30 @@
 "*":
-  editor:
-    showIndentGuide: true
-    softWrap: true
-    invisibles: {}
-    showInvisibles: true
   core:
     followSymlinks: true
     themes: [
       "atom-dark-ui"
-      "atom-dark-syntax"
+      "atom-light-syntax"
     ]
     disabledPackages: [
-      "vim-mode"
       "linter-phpcs"
+      "emmet"
     ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
   "exception-reporting":
     userId: "a642e5c2-3907-c10d-8211-6de36a70c62c"
-  minimap: {}
-  "project-manager": {}
   welcome:
     showOnStartup: false
-  "autocomplete-plus": {}
-  autosave: {}
   linter:
     statusBar: "Show error if the cursor is in range"
+    subtleLinterErrors: [
+      "php"
+    ]
+    showErrorPanel: true
+  minimap:
+    absoluteMode: true
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
