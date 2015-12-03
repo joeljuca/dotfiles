@@ -73,9 +73,11 @@ alias vgst='vagrant status'
 alias vgsh='vagrant ssh'
 
 # Misc
+alias :q="exit"
 alias mongod.mac='mongod --config /usr/local/etc/mongod.conf'
 alias px="ps aux"
-alias :q="exit"
+alias t="trash"
+alias v="vim"
 
 # PATH customizations
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH" # Homebrew
@@ -83,6 +85,12 @@ export PATH="$PATH:$HOME/.composer/vendor/bin" # Composer
 export ANDROID_HOME="/usr/local/opt/android-sdk" # Android SQK
 export PATH="${PATH}:$ANDROID_HOME/platform-tools" # Android SQK
 export PATH="${PATH}:$ANDROID_HOME/tools" # Android SQK
+
+# Add GHC 7.10.2 to the PATH, via https://ghcformacosx.github.io/
+export GHC_DOT_APP="/Applications/ghc-7.10.2.app"
+if [ -d "$GHC_DOT_APP" ]; then
+  export PATH="${PATH}:${HOME}/.local/bin:${HOME}/.cabal/bin:${GHC_DOT_APP}/Contents/bin"
+fi
 
 # For environment specific settings, please create a *.sh file at ./zsh-env
 #for shell_file ./zsh-env/*.sh; do
