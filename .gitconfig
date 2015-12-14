@@ -21,6 +21,6 @@
   support       = support/
   versiontag    = v
 [push]
-  default = matching
+  default       = matching
 [credential]
-	helper = osxkeychain
+helper          = osxkeychain
