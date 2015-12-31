@@ -75,6 +75,8 @@ alias vgsh='vagrant ssh'
 # Misc
 alias :q="exit"
 alias dk='docker'
+alias dkc='docker-compose'
+alias dkm='docker-machine'
 alias mongod.mac='mongod --config /usr/local/etc/mongod.conf'
 alias px="ps aux"
 alias t="trash"
