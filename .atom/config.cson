@@ -7,9 +7,8 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
-  "exception-reporting":
-    userId: "a642e5c2-3907-c10d-8211-6de36a70c62c"
-  "one-dark-ui":
-    layoutMode: "Compact"
   welcome:
     showOnStartup: false
+  minimap:
+    absoluteMode: true
+
