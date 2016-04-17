@@ -1,30 +1,15 @@
 "*":
   core:
     followSymlinks: true
-    themes: [
-      "atom-dark-ui"
-      "atom-light-syntax"
-    ]
-    disabledPackages: [
-      "linter-phpcs"
-      "emmet"
-    ]
+  drupal:
+    fileTypesPhp: "module,install,inc,test"
   editor:
-    invisibles: {}
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
   "exception-reporting":
     userId: "a642e5c2-3907-c10d-8211-6de36a70c62c"
+  "one-dark-ui":
+    layoutMode: "Compact"
   welcome:
     showOnStartup: false
-  linter:
-    statusBar: "Show error if the cursor is in range"
-    subtleLinterErrors: [
-      "php"
-    ]
-    showErrorPanel: true
-  minimap:
-    absoluteMode: true
-  whitespace:
-    ignoreWhitespaceOnCurrentLine: false
