@@ -1,14 +1,18 @@
 "*":
   core:
+    closeEmptyWindows: false
     followSymlinks: true
   drupal:
     fileTypesPhp: "module,install,inc,test"
   editor:
+    backUpBeforeSaving: true
+    scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
-  welcome:
-    showOnStartup: false
+  "exception-reporting":
+    userId: "b79b7037-7425-24c5-ca9a-3449a51b61fc"
   minimap:
     absoluteMode: true
-
+  welcome:
+    showOnStartup: false
