@@ -11,6 +11,7 @@ ZSH_TMUX_AUTOQUIT="true"
 plugins=(git git-flow jira nyan ruby rails tmux tmuxinator vagrant wd web-search)
 
 export EDITOR='vim'
+export ATOM_REPOS_HOME="$HOME/Projetos/Open-Source"
 # Drupal and Drush aliases. https://github.com/nuvoleweb/drush_alias
 alias dr='drush'
 alias drur='drush upwd $(drush uinf 1 | grep -e "User name" | grep -oe "[a-zA-Z0-9]\+\s\+$" | grep -e "[a-zA-Z0-9]\+") --password="$(date +%Y%m%d)"'
