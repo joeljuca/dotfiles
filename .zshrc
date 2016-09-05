@@ -12,6 +12,7 @@ plugins=(git git-flow jira nyan ruby rails tmux tmuxinator vagrant wd web-search
 
 export EDITOR='vim'
 export ATOM_REPOS_HOME="$HOME/Projetos/Open-Source"
+
 # Drupal and Drush aliases. https://github.com/nuvoleweb/drush_alias
 alias dr='drush'
 alias drur='drush upwd $(drush uinf 1 | grep -e "User name" | grep -oe "[a-zA-Z0-9]\+\s\+$" | grep -e "[a-zA-Z0-9]\+") --password="$(date +%Y%m%d)"'
@@ -29,11 +30,13 @@ alias drfr='drush -y features-revert'
 alias drfra='drush -y features-revert-all'
 alias drlu='drush l10n-update'
 alias drlur='drush l10n-update-refresh'
+
 # Vagrant shortcuts
 alias vg='vagrant'
 alias vgup='vagrant up'
 alias vgst='vagrant status'
 alias vgsh='vagrant ssh'
+
 # Misc
 alias :q="exit"
 alias cask='brew cask'
@@ -45,9 +48,11 @@ alias mux='tmuxinator'
 alias px="ps aux"
 alias t="trash"
 alias v="vim"
+
 # PATH customizations
 PATH="/usr/local/sbin:/usr/local/bin:$PATH" # Homebrew
 PATH="$PATH:$HOME/.composer/vendor/bin" # Composer
+PATH="$PATH:$HOME/.rvm/bin" # RVM
 ANDROID_HOME="/usr/local/opt/android-sdk" # Android SQK
 PATH="$PATH:$ANDROID_HOME/platform-tools" # Android SQK
 PATH="$PATH:$ANDROID_HOME/platform-tools" # Android SQK
