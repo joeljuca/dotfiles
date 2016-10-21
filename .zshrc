@@ -3,12 +3,9 @@
 
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="nicoulaj"
-export UPDATE_ZSH_DAYS=1
+UPDATE_ZSH_DAYS=1
 COMPLETION_WAITING_DOTS="true"
-ZSH_TMUX_AUTOSTART="true"
-ZSH_TMUX_AUTOCONNECT="true"
-ZSH_TMUX_AUTOQUIT="true"
-plugins=(git git-flow jira nyan ruby rails tmux tmuxinator vagrant wd web-search)
+plugins=(git git-flow nyan ruby rails tmux tmuxinator wd web-search)
 
 export EDITOR='vim'
 export ATOM_REPOS_HOME="$HOME/Projetos/Open-Source"
