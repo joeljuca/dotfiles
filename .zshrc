@@ -40,6 +40,9 @@ alias cask='brew cask'
 alias dk='docker'
 alias dkc='docker-compose'
 alias dkm='docker-machine'
+# Temporary hard-coded alias until PR gets merged
+# https://github.com/robbyrussell/oh-my-zsh/pull/5591
+alias gsh='git show'
 alias mongod.mac='mongod --config /usr/local/etc/mongod.conf'
 alias mux='tmuxinator'
 alias px="ps aux"
