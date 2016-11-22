@@ -40,6 +40,7 @@ alias cask='brew cask'
 alias dk='docker'
 alias dkc='docker-compose'
 alias dkm='docker-machine'
+alias dog='cat'
 # Temporary hard-coded alias until PR gets merged
 # https://github.com/robbyrussell/oh-my-zsh/pull/5591
 alias gsh='git show'
