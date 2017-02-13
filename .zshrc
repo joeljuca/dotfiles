@@ -54,6 +54,7 @@ alias v="vim"
 
 # PATH customizations
 PATH="/usr/local/sbin:/usr/local/bin:$PATH" # Homebrew
+PATH="usr/local/opt/openssl/bin:$PATH" # Homebrew powered OpenSSL
 PATH="$PATH:$HOME/.composer/vendor/bin" # Composer
 PATH="$PATH:$HOME/.rvm/bin" # RVM
 ANDROID_HOME="/usr/local/opt/android-sdk" # Android SQK
