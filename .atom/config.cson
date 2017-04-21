@@ -10,8 +10,6 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
-  "exception-reporting":
-    userId: "b79b7037-7425-24c5-ca9a-3449a51b61fc"
   minimap:
     absoluteMode: true
   welcome:
