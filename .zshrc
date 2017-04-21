@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="nicoulaj"
 UPDATE_ZSH_DAYS=1
 COMPLETION_WAITING_DOTS="true"
-plugins=(git git-flow nyan ruby rails tmux tmuxinator wd web-search)
+plugins=(composer git git-flow nyan ruby rails tmux tmuxinator wd web-search)
 
 export EDITOR='vim'
 export ATOM_REPOS_HOME="$HOME/Projetos/Open-Source"
