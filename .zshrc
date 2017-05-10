@@ -1,10 +1,11 @@
-# Joel Wallis' .vimrc
 # https://github.com/joelwallis/dotfiles
 
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="nicoulaj"
+ZSH_THEME='nicoulaj'
 UPDATE_ZSH_DAYS=1
-COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS='true'
+ZSH_TMUX_AUTOSTART=true
+#ZSH_TMUX_ITERM2=true
 plugins=(composer git git-flow nyan ruby rails tmux tmuxinator wd web-search)
 
 export EDITOR='vim'
@@ -73,4 +74,3 @@ if [ -x ~/.ssh/set-homebrew-github-api-token.sh ]; then
 fi
 
 source $ZSH/oh-my-zsh.sh
-
