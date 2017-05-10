@@ -1,26 +1,22 @@
 [user]
-  name          = Joel Wallis Jucá
-  email         = joelwallis@gmail.com
-
+  name       = Joel Wallis Jucá
+  email      = joelwallis@gmail.com
 [core]
-  editor        = vim
-  fileMode      = false
-
+  editor     = vim
+  fileMode   = false
 [color]
-  ui            = true
-
+  ui         = true
 [alias]
-  lg            = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-  st            = status -sb
-  standup       = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative --since yesterday
-
+  lg         = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  st         = status -sb
+  standup    = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative --since yesterday
 [gitflow "prefix"]
-  feature       = feature/
-  release       = release/
-  hotfix        = hotfix/
-  support       = support/
-  versiontag    = v
+  feature    = feature/
+  release    = release/
+  hotfix     = hotfix/
+  support    = support/
+  versiontag = v
 [push]
-  default       = matching
+  default    = matching
 [credential]
-helper          = osxkeychain
+helper       = osxkeychain
