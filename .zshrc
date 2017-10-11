@@ -4,7 +4,6 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME='nicoulaj'
 UPDATE_ZSH_DAYS=1
 COMPLETION_WAITING_DOTS=true
-ZSH_TMUX_AUTOSTART=true
 plugins=(git nyan ruby rails tmux tmuxinator)
 
 export EDITOR='vim'
