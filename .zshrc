@@ -61,7 +61,6 @@ PATH="$PATH:$HOME/.composer/vendor/bin" # Composer
 ANDROID_HOME="/usr/local/opt/android-sdk" # Android SQK
 PATH="$PATH:$ANDROID_HOME/platform-tools" # Android SQK
 PATH="$PATH:$ANDROID_HOME/platform-tools" # Android SQK
-PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.5/bin" # Postgres.app
 PATH="$PATH:/usr/local/opt/go/libexec/bin" # Go
 # For environment specific settings, please create a *.sh file at ./zsh-env
 #for shell_file ./zsh-env/*.sh; do
