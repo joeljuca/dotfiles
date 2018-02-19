@@ -31,6 +31,8 @@ export ANDROID_HOME="$HOME/Library/Android/sdk"
 PATH="$PATH:$ANDROID_HOME/tools"
 PATH="$PATH:$ANDROID_HOME/platform-tools"
 
+GOPATH="$PATH:$HOME/.go"
+
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 
