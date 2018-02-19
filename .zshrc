@@ -27,6 +27,10 @@ PATH="usr/local/opt/openssl/bin:$PATH" # Homebrew powered OpenSSL
 PATH="$HOME/.rvm/bin:$PATH" # RVM
 PATH="$PATH:/usr/local/opt/go/libexec/bin" # Go
 
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+PATH="$PATH:$ANDROID_HOME/tools"
+PATH="$PATH:$ANDROID_HOME/platform-tools"
+
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 
