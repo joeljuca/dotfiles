@@ -2,7 +2,7 @@
   name       = Joel Wallis Jucá
   email      = joelwallis@gmail.com
 [core]
-  editor     = vim
+  editor     = nvim
   fileMode   = false
 [color]
   ui         = true

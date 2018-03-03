@@ -19,6 +19,7 @@ alias mongod.mac='mongod --config /usr/local/etc/mongod.conf'
 alias mux='tmuxinator'
 alias services='brew services'
 alias px="ps aux"
+alias vim="nvim"
 
 export ATOM_REPOS_HOME="$HOME/Projetos/Open-Source"
 export EDITOR='vim'
