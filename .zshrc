@@ -6,39 +6,46 @@ UPDATE_ZSH_DAYS=1
 COMPLETION_WAITING_DOTS=true
 plugins=(git nyan ruby rails tmux tmuxinator)
 
-export EDITOR='vim'
-export ATOM_REPOS_HOME="$HOME/Projetos/Open-Source"
-
 # Misc
+alias e="echo"
+alias v="vim"
 alias :q="exit"
 alias cask='brew cask'
 alias dog='cat'
-# Temporary hard-coded alias until PR gets merged
-# https://github.com/robbyrussell/oh-my-zsh/pull/5591
+# Temporary hard-coded till PR is merged. https://github.com/robbyrussell/oh-my-zsh/pull/5591
 alias gsh='git show'
 alias lg='git lg'
 alias mongod.mac='mongod --config /usr/local/etc/mongod.conf'
 alias mux='tmuxinator'
+alias services='brew services'
 alias px="ps aux"
 
-# PATH customizations
-PATH="/usr/local/sbin:/usr/local/bin:$PATH" # Homebrew
-PATH="usr/local/opt/openssl/bin:$PATH" # Homebrew powered OpenSSL
-PATH="$HOME/.rvm/bin:$PATH" # RVM
-PATH="$PATH:/usr/local/opt/go/libexec/bin" # Go
-
-export ANDROID_HOME="$HOME/Library/Android/sdk"
-PATH="$PATH:$ANDROID_HOME/tools"
-PATH="$PATH:$ANDROID_HOME/platform-tools"
-
-GOPATH="$PATH:$HOME/.go"
-
+export ATOM_REPOS_HOME="$HOME/Projetos/Open-Source"
+export EDITOR='vim'
+export GOPATH="$PATH:$HOME/.go"
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
+
+# PATH customizations
+export PATH="/usr/local/sbin:/usr/local/bin:$PATH" # Homebrew
+export PATH="usr/local/opt/openssl/bin:$PATH" # Homebrew powered OpenSSL
+export PATH="$HOME/.rvm/bin:$PATH" # RVM
+export PATH="$PATH:$HOME/.composer/vendor/bin" # Composer
+export PATH="$PATH:/usr/local/opt/go/libexec/bin" # Go
+
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH="$PATH:$ANDROID_HOME/tools"
+export PATH="$PATH:$ANDROID_HOME/platform-tools"
 
 # Homebrew GitHub API token
 if [ -x ~/.ssh/set-homebrew-github-api-token.sh ]; then
   source  ~/.ssh/set-homebrew-github-api-token.sh
 fi
+
+function c {
+  echo -n $1 \
+    | wc -m \
+    | xargs # easy way to trim a string
+}
 
 source $ZSH/oh-my-zsh.sh
