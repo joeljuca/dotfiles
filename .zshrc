@@ -24,6 +24,7 @@ alias vim="nvim"
 export ATOM_REPOS_HOME="$HOME/Projetos/Open-Source"
 export EDITOR='vim'
 export GOPATH="$PATH:$HOME/.go"
+export HISTCONTROL="ignorespace"
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 
