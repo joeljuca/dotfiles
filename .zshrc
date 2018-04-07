@@ -50,4 +50,8 @@ function c {
     | xargs # easy way to trim a string
 }
 
+function beep {
+  echo -e "\a"
+}
+
 source $ZSH/oh-my-zsh.sh
