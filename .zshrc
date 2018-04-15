@@ -27,6 +27,7 @@ export GOPATH="$PATH:$HOME/.go"
 export HISTCONTROL="ignorespace"
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
+export REACT_EDITOR='atom'
 
 # PATH customizations
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH" # Homebrew
