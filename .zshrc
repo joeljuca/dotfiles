@@ -55,4 +55,11 @@ function beep {
   echo -e "\a"
 }
 
+function number-only {
+  echo -n $1 \
+    | xargs \
+    | sed -E s/[^0-9]+//g
+}
+alias nonly=number-only
+
 source $ZSH/oh-my-zsh.sh
