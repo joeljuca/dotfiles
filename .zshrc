@@ -26,7 +26,7 @@ export EDITOR='vim'
 export GOPATH="$PATH:$HOME/.go"
 export HISTCONTROL="ignorespace"
 export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+[ -d "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
 export REACT_EDITOR='atom'
 
 # PATH customizations
