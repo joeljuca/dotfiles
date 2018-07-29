@@ -65,7 +65,7 @@ function beep {
 function number-only {
   echo -n $1 \
     | xargs \
-    | sed -E s/[^0-9]+//g
+    | sed -E "s/[^0-9]+//g"
 }
 alias nonly=number-only
 
