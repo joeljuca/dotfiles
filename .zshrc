@@ -40,6 +40,13 @@ export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH="$PATH:$ANDROID_HOME/tools"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 
+# Google Cloud SDK
+for prefix in path completion; do
+  if [ -x "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/${prefix}.zsh.inc" ]; then
+    source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/${prefix}.zsh.inc"
+  fi
+done
+
 # Homebrew GitHub API token
 if [ -x ~/.ssh/set-homebrew-github-api-token.sh ]; then
   source  ~/.ssh/set-homebrew-github-api-token.sh
