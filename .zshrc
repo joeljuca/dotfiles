@@ -25,9 +25,11 @@ export ATOM_REPOS_HOME="$HOME/Projetos/Open-Source"
 export EDITOR='vim'
 export GOPATH="$HOME/.go"
 export HISTCONTROL="ignorespace"
-export NVM_DIR="$HOME/.nvm"
-[ -d "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
 export REACT_EDITOR='atom'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 # PATH customizations
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH" # Homebrew
