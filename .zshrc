@@ -50,9 +50,7 @@ for prefix in path completion; do
 done
 
 # Homebrew GitHub API token
-if [ -x ~/.ssh/set-homebrew-github-api-token.sh ]; then
-  source  ~/.ssh/set-homebrew-github-api-token.sh
-fi
+[ -x "${HOME}/.ssh/set-homebrew-github-api-token.sh" ] && \.  "${HOME}/.ssh/set-homebrew-github-api-token.sh"
 
 function c {
   echo -n $1 \
