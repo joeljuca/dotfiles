@@ -1,7 +1,7 @@
 # https://github.com/joelwallis/dotfiles
 
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME='arrow'
+ZSH_THEME='avit'
 UPDATE_ZSH_DAYS=1
 COMPLETION_WAITING_DOTS=true
 plugins=(git nyan ruby rails tmux tmuxinator)
