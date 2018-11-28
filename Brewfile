@@ -80,7 +80,6 @@ cask 'zoomus'
 
 mas 'feedly', id: 865500966
 mas 'LastPass', id: 926036361
-mas 'Pocket', id: 568494494
 mas 'Telegram Desktop', id: 946399090
 mas 'TweetDeck', id: 485812721
 mas 'Wunderlist', id: 410628904
