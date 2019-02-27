@@ -101,7 +101,7 @@ function beep {
 }
 
 function number-only {
-  echo -n $1 \
+  echo -n $@ \
     | xargs \
     | sed -E "s/[^0-9]+//g"
 }
