@@ -20,6 +20,7 @@ brew 'neovim'
 brew 'nginx', restart_service: true
 brew 'node'
 brew 'ruby'
+brew 'rsync'
 brew 'ssh-copy-id'
 brew 'tmux'
 brew 'tree'
