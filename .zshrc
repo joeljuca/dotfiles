@@ -1,7 +1,10 @@
 # https://github.com/joelwallis/dotfiles
 
+
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME='avit'
+ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_AUTOCONNECT=true
 UPDATE_ZSH_DAYS=1
 COMPLETION_WAITING_DOTS=true
 plugins=(git ruby rails tmux)
@@ -12,7 +15,9 @@ alias v="vim"
 alias :q="exit"
 alias cask='brew cask'
 alias dog='cat'
-alias https='http --default-scheme=https'
+alias htop="htop -d 5 -u $(whoami)"
+alias http='http --timeout=600'
+alias https='http --default-scheme=https --timeout=600'
 # Temporary hard-coded till PR is merged. https://github.com/robbyrussell/oh-my-zsh/pull/5591
 alias gsh='git show'
 alias lg='git lg'
@@ -68,9 +73,12 @@ nvm use default 2>&1
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH" # Homebrew
 export PATH="usr/local/opt/openssl/bin:$PATH" # Homebrew powered OpenSSL
 export PATH="/usr/local/opt/ruby/bin:$PATH" # Homebrew powered Ruby
+export PATH="/usr/local/opt/ruby-gems/bin:$PATH" # Homebrew powered Ruby
+export PATH="/usr/local/lib/ruby/gems:$PATH" # Homebrew powered Ruby
 export PATH="$HOME/.rvm/bin:$PATH" # RVM
 export PATH="$PATH:$HOME/.composer/vendor/bin" # Composer
 export PATH="$PATH:/usr/local/opt/go/libexec/bin" # Go
+export PATH="$HOME/.deno/bin:$PATH" # Deno
 
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH="$PATH:$ANDROID_HOME/tools"
