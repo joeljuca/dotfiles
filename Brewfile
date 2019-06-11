@@ -60,6 +60,7 @@ cask 'toggl'
 cask 'transmission'
 cask 'virtualbox'
 cask 'vlc'
+cask 'youtube-dl'
 cask 'whatsapp'
 cask 'zoomus'
 
