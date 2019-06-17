@@ -29,6 +29,19 @@ brew 'wget'
 brew 'yarn', args: ['without-node']
 brew 'zsh'
 
+# asdf dependencies
+brew 'coreutils'
+brew 'automake'
+brew 'autoconf'
+brew 'openssl'
+brew 'libyaml'
+brew 'readline'
+brew 'libxslt'
+brew 'libtool'
+brew 'unixodbc'
+brew 'unzip'
+brew 'curl'
+
 cask 'authy'
 cask 'brave-browser'
 cask 'caprine'
