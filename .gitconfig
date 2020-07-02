@@ -1,7 +1,7 @@
 [user]
   name       = Joel Jucá
   email      = joelwallis@gmail.com
-  signingkey = A2BFD5B6FCC049DEBF5A7E2908889F5A24817F8B
+  signingkey = 1BC1AA1C0C8D337F
 [commit]
   gpgsign    = true
 [core]
@@ -24,3 +24,5 @@
   default    = matching
 [credential]
 helper       = osxkeychain
+[pull]
+	rebase = true
