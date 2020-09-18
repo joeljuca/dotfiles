@@ -2,27 +2,27 @@
   name       = Joel Jucá
   email      = joelwallis@gmail.com
   signingkey = 1BC1AA1C0C8D337F
+[alias]
+  first      = commit --allow-empty -m '💥'
+  standup    = log --abbrev-commit --all --author=joelwallis --since yesterday --pretty=oneline
+  lg         = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  st         = status -sb
+[color]
+  ui         = true
 [commit]
   gpgsign    = true
 [core]
   editor     = nvim
   fileMode   = false
-[color]
-  ui         = true
-[alias]
-  first      = commit --allow-empty -m '💥'
-  lg         = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-  st         = status -sb
-  standup    = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative --since yesterday
+[credential]
+  helper     = osxkeychain
 [gitflow "prefix"]
   feature    = feature/
   release    = release/
   hotfix     = hotfix/
   support    = support/
   versiontag = v
+[pull]
+  rebase     = true
 [push]
   default    = matching
-[credential]
-helper       = osxkeychain
-[pull]
-	rebase = true
